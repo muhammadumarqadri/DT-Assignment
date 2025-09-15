@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applicant Storyboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Header / Title -->
+    <header class="header">
+      <h1>Applicant Storyboard</h1>
+      <p>Track and visualize your applicants efficiently</p>
+    </header>
+
+    <!-- Storyboard Section -->
+    <section class="storyboard">
+
+      <!-- Card 1 -->
+      <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-state">State 1</div>
+            <h2>Applicant Name</h2>
+            <p>Position: Frontend Developer</p>
+            <button class="btn">View Details</button>
+          </div>
+          <div class="card-back">
+            <p>Experience: 2 Years</p>
+            <p>Skills: HTML, CSS, JavaScript</p>
+            <p>Email: applicant1@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card active" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-state">State 2</div>
+            <h2>Applicant Name</h2>
+            <p>Position: Backend Developer</p>
+            <button class="btn">View Details</button>
+          </div>
+          <div class="card-back">
+            <p>Experience: 3 Years</p>
+            <p>Skills: Node.js, Express, MongoDB</p>
+            <p>Email: applicant2@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-state">State 1</div>
+            <h2>Applicant Name</h2>
+            <p>Position: UI/UX Designer</p>
+            <button class="btn">View Details</button>
+          </div>
+          <div class="card-back">
+            <p>Experience: 1 Year</p>
+            <p>Skills: Figma, Adobe XD, Sketch</p>
+            <p>Email: applicant3@example.com</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+</body>
+</html>
